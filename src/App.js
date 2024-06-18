@@ -12,7 +12,6 @@ function App() {
     return (
         <div className="App">
             <NavBar />
-            <Blogs />
             <Routes>
                 <Route path="/" element={ <Home /> } />
                 <Route path="/Videos" element={ <Videos /> } />
@@ -23,7 +22,7 @@ function App() {
                 <Route path="/WhoAreWe" element={ <WhoAreWe /> } />
                 <Route path="/LogIn" element={ <LogIn /> } />
             </Routes>
-            <Footer />
+            {/* <Footer /> */ }
         </div>
     );
 }
