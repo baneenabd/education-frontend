@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import './App.css';
 import Home from './components/Home';
 import Videos from './components/Videos';
+import CreateVideo from './Pages/CreateVideo';
 import Blogs from './components/Blogs';
 import WhoAreWe from './components/WhoAreWe';
 import Auth from './Pages/Auth';
@@ -19,6 +20,7 @@ function App() {
         <Route path="/auth" element={<Auth />} />
         <Route element={<PrivateRoutes />}>
           <Route path="/Videos" element={<Videos />} />
+          <Route path="/Videos/create" element={<CreateVideo />} />
           <Route path="/Blogs" element={<Blogs />} />
         </Route>
         <Route path="/ContactUs" element={<ContactWithUs />} />
