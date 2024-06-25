@@ -30,9 +30,9 @@ const CreateVideo = () => {
   return (
     <form onSubmit={handleCreateLesson}>
       <h2>Create Video</h2>
-      <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} required />
-      <input type="file" accept="video/*" onChange={(e) => setVideo(e.target.files[0])} required />
-      <button type="submit">Create Video</button>
+      <input type='text' placeholder='Title' value={title} onChange={(e) => setTitle(e.target.value)} required />
+      <input class type='file' accept='video/*' onChange={(e) => setVideo(e.target.files[0])} required />
+      <button type='submit'>Create Video</button>
     </form>
   );
 };

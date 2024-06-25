@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Videos = () => {
   return (
     <div>
-      <Link to="/videos/create">create</Link>
+      <Link to='/videos/create'>Add Lesson</Link>
     </div>
   );
 };
